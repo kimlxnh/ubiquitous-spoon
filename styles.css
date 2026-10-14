@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 110vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid orange;
+    width: 100%;
+    background-color: #FFF2C6;
+    position: fixed;
+    top: 0;
+}
+
+nav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+    background-color: brown;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+    background-color: brown;
+    color: white;
+}
+
+footer {
+    border-top: 5px solid #FFF2C6;
+   background-color: #FFF2C6;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+footer a, p {
+  font-size: 14px;
+  color: black;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.menu-icon {
+    height: 45px;
+}
+
+header {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: "Impact", serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+hr {
+    height: 3px;
+    width: 100%;
+    background-color: #FFF2C6;
+    border: 0;
+}
+
+.map-image{
+    overflow: hidden;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.osteriaangelina{
+    overflow: hidden;
+    max-height: 100px;
+    max-width: 100px;
+    object-fit: scale-down;
+    position: relative;
+}
+
+.nandos{
+        overflow: hidden;
+    max-height: 100px;
+    max-width: 100px;
+        object-fit: scale-down;
+        position: relative;
+}
+
+.inkonito{
+        overflow: hidden;
+    max-height: 100px;
+    max-width: 100px;
+        object-fit: scale-down;
+        position: relative;
+}
+
+.openmap{
+    text-align: right;
+    margin-right: 250px;
+}
